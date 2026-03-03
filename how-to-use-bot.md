@@ -13,7 +13,8 @@ title: Как пользоваться Деньгописцем
 
 Не нужно настраивать всё сразу. Начни с записей, а остальное можно добавить постепенно.
 
-## С чего начать
+<h2 id="quick-start">С чего начать</h2>
+
 
 1. Пиши траты коротко: `450 кофе Старс`, `1617 продукты Лента`, `890 такси`, `500 бургер Мак`
 2. Подтверждай полезные теги, если бот их предлагает
@@ -24,7 +25,8 @@ title: Как пользоваться Деньгописцем
 
 Этого уже достаточно, чтобы начать видеть, куда уходят деньги.
 
-## Как лучше записывать траты
+<h2 id="recording">Как лучше записывать траты</h2>
+
 
 Лучше всего бот понимает короткие и естественные записи:
 
@@ -39,9 +41,10 @@ title: Как пользоваться Деньгописцем
 
 Главный принцип: чем проще запись, тем легче пользоваться ботом каждый день.
 
-<p><img src="assets/how-to-use/expense-examples.png" alt="Примеры записей трат" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
+<p><img src="assets/how-to-use/expense-examples.png" alt="Примеры записей трат" style="display: block; width: 100%; max-width: 420px; height: auto; margin: 16px auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
 
-## Теги: зачем они нужны
+<h2 id="tags">Теги: зачем они нужны</h2>
+
 
 Теги помогают понять, на что именно уходят деньги.
 
@@ -53,7 +56,8 @@ title: Как пользоваться Деньгописцем
 - замечать паттерны
 - делать более полезный разбор с рекомендациями, где можно сократить расходы
 
-## Когда стоит сохранить тег
+<h2 id="when-to-save-tag">Когда стоит сохранить тег</h2>
+
 
 Сохраняй тег, если это:
 
@@ -65,7 +69,8 @@ title: Как пользоваться Деньгописцем
 
 Если трата разовая, тег обычно не нужен.
 
-## Теги - что бот умеет сам
+<h2 id="tag-autodetect">Теги - что бот умеет сам</h2>
+
 
 Бот сам умеет:
 
@@ -75,12 +80,11 @@ title: Как пользоваться Деньгописцем
 
 Но для большей точности полезно добавить свои важные теги в настройках. Либо отредактировать их связанные теги и категории.
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0;">
-  <img src="assets/how-to-use/suggest-tag.png" alt="Предложение тега" style="flex: 1 1 320px; max-width: 100%; min-width: 260px; height: auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
-  <img src="assets/how-to-use/suggest-tag-result.png" alt="Результат добавления предложенного тега" style="flex: 1 1 320px; max-width: 100%; min-width: 260px; height: auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
-</div>
+<p><img src="assets/how-to-use/suggest-tag.png" alt="Предложение тега" style="display: block; width: 100%; max-width: 420px; height: auto; margin: 16px auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
+<p><img src="assets/how-to-use/suggest-tag-result.png" alt="Результат добавления предложенного тега" style="display: block; width: 100%; max-width: 420px; height: auto; margin: 16px auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
 
-## Что такое связанные теги
+<h2 id="linked-tags">Что такое связанные теги</h2>
+
 
 Связанный тег помогает боту лучше понимать тип расходов. Он будет автоматом ставить связанные теги, если уже проставил основной тег.
 
@@ -93,12 +97,11 @@ title: Как пользоваться Деньгописцем
 
 Проще всего думать так: связанный тег — это тип траты, который обычно бывает в этом месте.
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0;">
-  <img src="assets/how-to-use/add-tag.png" alt="Создание тега и связанных тегов" style="flex: 1 1 320px; max-width: 100%; min-width: 260px; height: auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
-  <img src="assets/how-to-use/add-tag-result.png" alt="Использование тега после настройки" style="flex: 1 1 320px; max-width: 100%; min-width: 260px; height: auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
-</div>
+<p><img src="assets/how-to-use/add-tag.png" alt="Создание тега и связанных тегов" style="display: block; width: 100%; max-width: 420px; height: auto; margin: 16px auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
+<p><img src="assets/how-to-use/add-tag-result.png" alt="Использование тега после настройки" style="display: block; width: 100%; max-width: 420px; height: auto; margin: 16px auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
 
-## Как пользоваться лимитами
+<h2 id="limits">Как пользоваться лимитами</h2>
+
 
 Лимиты нужны для контроля, а не для давления. С ними бот сможет предупреждать, какая часть лимита потрачена и стоит ли притормозить расходы.
 
@@ -121,9 +124,9 @@ title: Как пользоваться Деньгописцем
 
 Не ставь сразу много мелких лимитов. Это утомляет и редко помогает.
 
-<p><img src="assets/how-to-use/limits.png" alt="Экран лимитов" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
+<p><img src="assets/how-to-use/limits.png" alt="Экран лимитов" style="display: block; width: 100%; max-width: 420px; height: auto; margin: 16px auto; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);"></p>
 
-## Детальный разбор трат
+<h2 id="analysis">Детальный разбор трат</h2>
 **В доработке**
 
 Детальный разбор помогает быстро увидеть:
@@ -145,7 +148,8 @@ title: Как пользоваться Деньгописцем
 ![Детальный разбор](assets/how-to-use/deep-analysis.png)
 -->
 
-## Что дают сводки
+<h2 id="digests">Что дают сводки</h2>
+
 
 **Сводки** помогают быстро понять:
 
@@ -155,7 +159,8 @@ title: Как пользоваться Деньгописцем
 
 **Excel-отчёт** нужен, если хочется выгрузить траты в таблицу и работать с ними самостоятельно.
 
-## Что чаще всего мешает получить пользу
+<h2 id="mistakes">Что чаще всего мешает получить пользу</h2>
+
 
 - записывать траты не сразу, а вспоминать потом
 - не использовать теги вообще
